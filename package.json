@@ -1,6 +1,6 @@
 {
   "name": "phantom2jar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Export PhantomJS cookies to Jar",
   "main": "index.js",
   "scripts": {
