@@ -1,5 +1,7 @@
 # Phantom2JAR
 
+[![NPM](https://nodei.co/npm/phantom2jar.png)](https://nodei.co/npm/phantom2jar/)
+
 Export PhantomJS' cookies to [tough-cookie](https://www.npmjs.com/package/tough-cookie) easily.
 The 
 
