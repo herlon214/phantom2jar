@@ -1,0 +1,39 @@
+{
+  "name": "phantom2jar",
+  "version": "1.0.0",
+  "description": "Export PhantomJS cookies to Jar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/herlon214/phantom2jar.git"
+  },
+  "keywords": [
+    "phantomjs",
+    "phantom",
+    "cookie",
+    "jar"
+  ],
+  "author": "Herlon Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herlon214/phantom2jar/issues"
+  },
+  "homepage": "https://github.com/herlon214/phantom2jar#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^4.0.1",
+    "phantom": "^4.0.5",
+    "tough-cookie": "^2.3.3"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "dependencies": {
+    "aigle": "^1.9.0"
+  }
+}
