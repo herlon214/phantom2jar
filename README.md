@@ -25,7 +25,7 @@ const phantom = require('phantom')
 
   // Do your requests with the page
   const stackoverflow = await page.open('https://stackoverflow.com/')
-  let jar = phantom2jar(instance) // This will return a though-cookie jar
+  let jar = await phantom2jar(instance) // This will return a though-cookie jar
 
   // You can plug it with any other lib that use though-cookie :)
   
